@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxLines="20"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="vertical"
+    tools:context="com.example.codyclawson.runescapecompanion.GuideActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Money Making Guide"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                app:srcCompat="@drawable/cadava_potion_detail"
+                android:layout_width="83dp"
+                android:layout_height="143dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Decanting potions"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Decanting potions is one of the easiest ways to get fast gp. First find a good single dose potion (we advise agility potion). Then, make sure that 4 single dose potions are less than one 4 dose potion. Once you find a suitable potion, buy around 8k (this is the max you can buy from GE). Then take them over to bill who can be found south east of GE. He will decant them all for you in seconds! Boom Bam you now have a huge profit margin for literally doing nothing." />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                app:srcCompat="@drawable/prayer_potion_detail"
+                android:layout_width="110dp"
+                android:layout_height="143dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Canting Potions"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Canting potions is another great and fast way to make money. First, find some single dose potions that are worth a lot more together than one single dose potion. Buy 8k 4 dose potions and manually transsition them into seperate empty vials. This will make one 4 dose potion into four 1 dose potions. If done correctly you should be making around 1.5mil per hour" />
+
+
+            <ImageView
+                android:id="@+id/imageView23"
+                app:srcCompat="@drawable/sword"
+                android:layout_width="110dp"
+                android:layout_height="143dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PK (Player Killing)"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pking is by far the most efficient way to earn money in OSRS. You can gain up to really any amount of gp per hour depending on your luck and skill. Pking is known for being very hard, however there are tons of tutorials to get your feet wet. High risk pking or bot killing are the easier forms, while edgeville pking is a more sport like way of fighting." />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
